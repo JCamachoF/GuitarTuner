@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ReferenceNotesFragment">
+
+    <ImageView
+        android:id="@+id/fretboardImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:src="@drawable/fretboard" />
+
+    <!-- Tocar sobre la cuerda 6 (E2) -->
+    <View
+        android:id="@+id/stringE4"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_alignTop="@id/fretboardImage"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/transparent" />
+
+    <!-- Cuerda A2 -->
+    <View
+        android:id="@+id/stringB3"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_below="@id/stringE4"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent" />
+
+    <View
+        android:id="@+id/stringG3"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_below="@id/stringB3"
+        android:layout_marginTop="4dp"
+        android:background="@android:color/transparent" />
+
+    <View
+        android:id="@+id/stringD3"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_below="@id/stringG3"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent" />
+
+    <View
+        android:id="@+id/stringA2"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_below="@id/stringD3"
+        android:layout_marginTop="7dp"
+        android:background="@android:color/transparent" />
+    <View
+        android:id="@+id/stringE2"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_below="@id/stringA2"
+        android:layout_marginTop="6dp"
+        android:background="@android:color/transparent" />
+
+
+</RelativeLayout>
